@@ -1,0 +1,65 @@
+.comments_container {
+	border-top: 2px solid lightgray;
+	
+}
+.title {
+	color: gray;
+	padding: 10px 0;
+}
+
+.comment_inputs{
+	margin: 20px 0;
+}
+.comment_inputs input {
+	border: 1px solid rgb(160, 160, 160);
+  transition: .3s border-color;
+	width: 90vh;
+	padding: 3px;
+	border-radius: 4px;
+
+}
+
+.one_comment_container{
+	display: flex;
+	margin: 10px 0;
+	padding: 4px;
+}
+.username {
+	font-weight:bolder;
+	font-size: 18px;
+	font-style:italic;
+	margin: 0px 15px 5px 0;
+}
+.data {
+	color: grey;
+	font-size: 12px;
+	margin-left: 10px;
+}
+.comment_text {
+	font-weight:200;
+	color: #242C28;
+}
+.buttons {
+	cursor: pointer;
+	display:flex;
+	margin: 0px 20px;
+	font-size: 10px;
+	opacity: 78%;
+}
+.delete_btn {
+	font-weight: bold;
+	background: white;
+	color: red;
+}
+.delete_btn:hover {
+}
+
+.edit_btn {
+	font-weight: bold;
+	background: white;
+	color: darkgreen;
+}
+/* #104547; */
+
+.edit_btn:hover {
+}

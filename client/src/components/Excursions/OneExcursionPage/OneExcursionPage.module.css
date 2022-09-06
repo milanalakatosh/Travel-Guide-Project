@@ -1,0 +1,103 @@
+.page_container {
+	display: flex;
+	justify-content:center;
+	margin: 130px 0;
+	width: 100%;
+	/* flex-wrap:nowrap */
+}
+.page {
+	display: flex;
+	justify-content:center;
+	/* align-items:center; */
+	width:80%;
+	border: 1px solid darkgrey;
+	box-shadow:8px -1px 30px 3px #4E5055;
+	padding: 15px;
+}
+.page_contain {
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	padding: 120px;
+}
+.input_container {
+	display: flex;
+	margin: 20px 20px 5px;
+}
+.input_container * {
+	margin-right: 5px;
+}
+
+.image {
+	align-self: center;
+	/* height: 50%; */
+	width:100%;
+	border: 3px solid #2360C5;
+	box-shadow:1px -1px 5px 1px #2360C5;
+}
+
+.title {
+	font-weight:bold;
+	font-size:28px;
+}
+
+.btn_container{
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+}
+
+.like_container{
+	display: flex;
+	align-items:center;
+}
+
+.like_btn{
+	color: red;
+	cursor: pointer;
+	margin-top: 40%;
+	margin-right:3px;
+}
+.like_btn:hover{
+	color: #c81c30;
+}
+
+.like_counter{
+	color: grey;
+}
+
+.buttons {
+	justify-content:flex-end;
+	cursor: pointer;
+	display:flex;
+}
+.delete_btn {
+	font-weight: bold;
+	border: 1px solid red;
+	background: white;
+	color: red;
+	border-radius: 4px;
+}
+
+.card-text:last-child {
+	margin-bottom:unset;
+}
+
+.delete_btn:hover {
+	background: red;
+	color: white;
+}
+
+.edit_btn {
+	font-weight: bold;
+	border: 1px solid #104547;
+	background: white;
+	color: #104547;
+	border-radius: 4px;
+	margin-right:10px;
+}
+
+.edit_btn:hover {
+	background: #104547;
+	color: white;
+}

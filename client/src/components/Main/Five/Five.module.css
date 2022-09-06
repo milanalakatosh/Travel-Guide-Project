@@ -1,0 +1,44 @@
+.five_parallax {
+  background-attachment: fixed;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: url('../../../../public/images/intro13.jpg');
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; 
+}
+.five_parallax h1 {
+    color: #ffffff;
+    font-size: 40px;
+}
+
+h3 {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.main_text {
+  margin-left: 100px;
+}
+
+.five_parallax .one-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+.five_text_parallax {
+    z-index: 0;
+    margin-right: 800px;
+}
+.five_page_content {
+    padding: 100px 50px;
+}
+
+

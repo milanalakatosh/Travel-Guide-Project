@@ -1,0 +1,34 @@
+.count {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.count__box {
+  width: 150px;
+  border-radius: 1px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.count__input {
+width: 50px;
+padding-top: 4px;
+text-align: center;
+}
+
+
+.count__input::-webkit-inner-spin-button,
+.count__input::-webkit-outer-spin-button {
+  appearance: none;
+}
+
+.count__controls {
+  display: flex;
+  flex-direction: column;
+}
+
+.count__controls img {
+  display: block;
+} 

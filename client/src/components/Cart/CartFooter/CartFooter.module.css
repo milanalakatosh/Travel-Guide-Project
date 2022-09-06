@@ -1,0 +1,39 @@
+.cart_footer {
+display: flex;
+justify-content: flex-start;
+gap: 20px;
+
+  padding: 10px 35px;
+  background: #ffffff;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.2;
+
+  @media (max-width: $mobile) {
+      padding-left: 15px;
+      padding-right: 15px;
+      grid-template-columns: 1fr 1fr;
+  }
+
+  @media (max-width: $mobile-xs) {
+      grid-template-columns: 1fr;
+      row-gap: 10px;
+  }
+}
+
+.cart_footer__count {
+  grid-column-start: 3;
+
+  @media (max-width: $mobile) {
+      grid-column-start: 1;
+  }
+}
+
+.text_footer {
+  margin-left: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+

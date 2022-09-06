@@ -1,0 +1,92 @@
+.card_container {
+	border-radius: 2%;
+	width: 27%;
+  position: relative;
+  animation-name: card;
+  animation-duration: 1s;
+	cursor: pointer;
+	padding: 7px 7px 15px;
+	margin: 20px 0px;
+}
+
+.card_container:hover {
+	border: 1px solid darkgrey;
+	box-shadow:8px -1px 30px 3px #4E5055;
+}
+.title {
+	font-weight:bold;
+	font-size:25px;
+}
+
+/* @keyframes card {
+  0%   {width:23%;}
+  50%  {width:25%;}
+  100% {width:27%;}
+} */
+
+.image {
+	height: 300px;
+	border-radius: 3%;
+}
+
+.text {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+}
+
+.btn_container{
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+}
+
+.like_container{
+	display: flex;
+	align-items:center;
+}
+
+.like_btn{
+	color: red;
+	cursor: pointer;
+	margin-top: 40%;
+}
+.like_btn:hover{
+	color: #c81c30;
+}
+
+.like_counter{
+	color: grey;
+}
+
+.details_btn {
+	font-weight: bold;
+	background: #104547;
+	color: white;
+	text-decoration: none;
+	text-align:center;
+	padding: 5px;
+	border-radius: 4px;
+	width: 30%;
+}
+.details_btn:hover {
+	color: white;
+	box-shadow:1px -1px 4px 1px #4E5055;
+}
+
+.buy_btn {
+	font-weight: bold;
+	background: #f8e646;;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	border-radius: 4px;
+	width: 30%;
+	align-self: flex-end;
+	color: #104547;
+}
+.buy_btn:hover {
+	box-shadow:1px -1px 4px 1px #4E5055;
+}

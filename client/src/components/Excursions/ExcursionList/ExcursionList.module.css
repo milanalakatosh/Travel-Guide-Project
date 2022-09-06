@@ -1,0 +1,12 @@
+.excursions_container {
+	display: flex;
+	justify-content: space-around;
+	margin: 8% 5%;
+	flex-wrap: wrap;
+}
+.empty {
+	height: 70vh;
+	font-size: 30px;
+	font-style:italic;
+	color: gray;
+}

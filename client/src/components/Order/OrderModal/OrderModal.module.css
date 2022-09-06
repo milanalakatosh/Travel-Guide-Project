@@ -1,0 +1,25 @@
+.btn {
+	background: transparent;
+	color:blue;
+	border: transparent;
+	padding: 0px 1px 1px;
+}
+.btn:hover {
+	background: transparent;
+	color:black;
+	border: transparent;
+	padding: -1px 2px 1px;
+}
+
+.span_text {
+  text-align: center;
+  margin: 20px;
+}
+
+.modal_container {
+padding: 150px
+}
+
+.title_text {
+ text-align: center !important;
+}
